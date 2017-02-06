@@ -1,6 +1,5 @@
 var cheerio = require('cheerio-httpcli')
 var doc = require('dynamodb-doc')
-var async = require('async')
 var fetch = null
 var dynamo = null
 var baseUrl = ''

@@ -1,0 +1,17 @@
+{
+  "name": "storyblok-lambda-crawler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm lambda-crawler.zip;",
+    "build": "rm lambda-crawler.zip;zip -r lambda-crawler.zip ./*;"
+  },
+  "author": "Alexander Feiglstorfer",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio-httpcli": "^0.3.2",
+    "crawler": "^1.0.2",
+    "dynamodb-doc": "^1.0.0"
+  }
+}
